@@ -11,7 +11,7 @@ I would like to give thanks to Ericw, as he is the one who has made a majority o
 Anyone who contributes may have their name edited into the credits.
 
 Credits:
--Quentin Jankosky/SpecialBomb: Textures, Maps, Code, Concept
+- Quentin Jankosky/SpecialBomb: Textures, Maps, Code, Concept
 
 More to come?
 
@@ -27,11 +27,11 @@ ___
 
 #Tools Used
 I used many tools to make Sling:
--**TrenchBroom** (Quake map editor.)
--**GIMP** (Image editor.)
--**qpakman** (Used for making `.pak` and `.wad` files. Available on github.)
--**Geany** (IDE and text editor.)
--**ericw tyrutils** (Used for compiling Quake maps for Sling. Available on github.)
--**Image Magick** (Used for mass image conversion.)
+- **TrenchBroom** (Quake map editor.)
+- **GIMP** (Image editor.)
+- **qpakman** (Used for making `.pak` and `.wad` files. Available on github.)
+- **Geany** (IDE and text editor.)
+- **ericw tyrutils** (Used for compiling Quake maps for Sling. Available on github.)
+- **Image Magick** (Used for mass image conversion.)
 
 If you are looking to modify Sling or make levels, I highly reccomend getting these tools and learning to use them. Almost all of them are cross platform, besides qpakman, which is for Linux systems. However, Windows has a much better selection when it comes to `.pak` and `.wad` editors, so you shouldn't be hindered if you use Windows.
