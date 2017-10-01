@@ -4,16 +4,19 @@ Sling is cross platform for Windows and Linux-based systems. It is garunteed to 
 # Compiling Requirements
 
 ## Linux compiling requirements
-lol idk right now, emailed ericw about it since I forgot
+Your system will need SDL2 development files and libraries, as well as standard c compiling packages, applications, and libraries.
+
+In Debian 9, SDL2 development libraries can be installed by executing the following as root:
+`apt install libsdl2-dev`
 
 # Compiling on Linux based systems
 
 To compile sling:
 
 1. `cd` into `slingsource/Quake`
-  * `cd slingsource/Quake`
+`cd slingsource/Quake`
 2. Run `make` by itself to compile sling, or target `sling` directly to be extra sure. Your architecture will be automatically detected. Look inside the makefile for additional make targets. I do not reccomend targeting `install`, as I have not gotten that fully set up yet.
-  * `make`, `make sling`
+`make`, or `make sling`
 3. You should be done! The `sling` binary will have been automatically copied to the root sling directory next to `slingbase/`, and will have been placed in the source directory as well.
 4. To reduce disk usage or if you are not developing, running `make clean` will delete all of the object files as well as `sling` in the source directory.
-  * `make clean`
+`make clean`
