@@ -16,14 +16,14 @@
 *.gch
 *.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Libraries We don't want to get rid of included libraries
+#*.lib
+#*.a
+#*.la
+#*.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
+#*.dll We don't want to get rid of the DLLs, as windows users won't be able to easily obtain the DLLs to play.
 *.so
 *.so.*
 *.dylib
@@ -35,6 +35,7 @@
 *.i*86
 *.x86_64
 *.hex
+sling
 
 # Debug files
 *.dSYM/
