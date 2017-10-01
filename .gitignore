@@ -49,6 +49,11 @@ slingbase/maps/*.prt
 slingbase/maps/autosave
 #There are some more map files I am probably forgetting...
 
+#Quake stuff
+history.txt
+sling*.tga
+*.sav
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
