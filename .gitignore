@@ -43,6 +43,12 @@ sling
 *.idb
 *.pdb
 
+#Map stuff
+slingbase/maps/*.log
+slingbase/maps/*.prt
+slingbase/maps/autosave
+#There are some more map files I am probably forgetting...
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
