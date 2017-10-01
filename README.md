@@ -35,3 +35,22 @@ I used many tools to make Sling:
 - **Image Magick** (Used for mass image conversion.)
 
 If you are looking to modify Sling or make levels, I highly reccomend getting these tools and learning to use them. Almost all of them are cross platform, besides qpakman, which is for Linux systems. However, Windows has a much better selection when it comes to `.pak` and `.wad` editors, so you shouldn't be hindered if you use Windows.
+
+# Required Linux Packages/Libraries
+idk right now leave me alone
+
+# Required Windows DLLs
+All of the needed Windows DLLs are included in `slingsource/Windows/`
+
+Copy or move the following DLLs next to your `sling.exe` executable. Replace (x64/x86) to match your processor architechure:
+- slingsource/Windows/codecs/(x64/x86)/libFLAC-8.dll
+- slingsource/Windows/codecs/(x64/x86)/libmad-0.dll
+- slingsource/Windows/codecs/(x64/x86)/libmikmod-3.dll
+- slingsource/Windows/codecs/(x64/x86)/libogg-0.dll
+- slingsource/Windows/codecs/(x64/x86)/libopus-0.dll
+- slingsource/Windows/codecs/(x64/x86)/libopusfile-0.dll
+- slingsource/Windows/codecs/(x64/x86)/libvorbis-0.dll
+- slingsource/Windows/codecs/(x64/x86)/libvorbisfile-3.dll
+- slingsource/Windows/SDL2/(lib/lib64)/SDL2.dll
+
+Some of these codecs aren't used, so I may remove them altogether.
