@@ -1,0 +1,5 @@
+#Map stuff
+*.log
+*.prt
+autosave/
+#There are some more map files I am probably forgetting...
