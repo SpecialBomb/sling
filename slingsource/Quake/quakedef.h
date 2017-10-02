@@ -36,7 +36,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define	LINUX_VERSION		1.30
 #define	X11_VERSION		1.10
 
-#define SLING_VERSION	1.01	//sling, removed unneeded codecs 1.00>1.01
+#define SLING_VERSION	2.11	//sling, removed unneeded codecs 1.00>1.01
 #define	FITZQUAKE_VERSION	0.85	//johnfitz
 #define	QUAKESPASM_VERSION	0.92
 #define	QUAKESPASM_VER_PATCH	2	// helper to print a string like 0.92.1
