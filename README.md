@@ -20,7 +20,7 @@ ___
 # Directories
 
 ## slingbase
-`slingbase/` is the directory that contains the gamefiles. It is functionally similar to `id1/` in Quake. It contains the pak source, as well as the packaged pak for running the game, as I don't expect everyone to have a pak tool handy. Because the engine requires using a pak, I will make efforts for Sling to simply use a directory with files, as needing to pak everything is dumb. I will probably ask ericw to help me, because I don't want to break anything. It also contains the map source files, which are editable in a Quake map editor, such as trenchbroom or netradiant. The textures are also in there, as well as a wad for editing and making maps. The QuakeC source is also there for compiling the game progs.
+`slingbase/` is the directory that contains the gamefiles. It is functionally similar to `id1/` in Quake. It contains the source game files that are open to edit. It also contains the map source files, which are editable in a Quake map editor, such as trenchbroom or netradiant. The textures are also in there, as well as a wad for editing and making maps. The QuakeC source is also there for compiling the game progs.
 
 ## slingsource
 `slingsource/` is the directory that contains the engine files for compiling (for more on compiling, read COMPILING.md). the `Quake/` directory contains all of the code for compiling. `Windows/` contains all of the files needed to run the game on windows, including DLLs. `Misc/` contains files derived from QuakeSpasm, and aren't used.
@@ -33,6 +33,8 @@ I used many tools to make Sling:
 - **Geany** (IDE and text editor.)
 - **ericw tyrutils** (Used for compiling Quake maps for Sling. Available on github.)
 - **Image Magick** (Used for mass image conversion.)
+- **TexMex** (used for `.wad` editing)
+- **Fimg** (used for editing all of quake's weird image formats)
 
 If you are looking to modify/develop Sling or make levels, I highly reccomend getting these tools and learning to use them. Almost all of them are cross platform, besides qpakman, which is for Linux systems. However, Windows has a much better selection when it comes to `.pak` and `.wad` editors, so you shouldn't be hindered if you use Windows.
 
