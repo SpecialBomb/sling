@@ -51,6 +51,10 @@ sling*.tga
 *.sav
 *.dem
 
+#QuakeC stuff
+*.lno
+*.log
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
