@@ -825,7 +825,7 @@ void SV_WalkMove (edict_t *ent)
 		return;		// move didn't block on a step
 
 	if (!oldonground && ent->v.waterlevel == 0)
-	//	return;		// don't stair up while jumping
+		return;		// don't stair up while jumping
 
 	if (ent->v.movetype != MOVETYPE_WALK)
 		return;		// gibbed by a trigger
