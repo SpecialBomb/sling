@@ -49,6 +49,7 @@ sling
 history.txt
 sling*.tga
 *.sav
+*.dem
 
 # Kernel Module Compile Results
 *.mod*
