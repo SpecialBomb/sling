@@ -112,7 +112,7 @@
 }
 // entity 3
 {
-"spawnflags" "1"
+"spawnflags" "0"
 "classname" "trigger_changelevel"
 "map" "sl03"
 // brush 0
@@ -137,6 +137,6 @@
 {
 "classname" "info_intermission"
 "origin" "-376 32 384"
-"angle" "-0"
+"angle" "0"
 "mangle" "180 0 0"
 }
