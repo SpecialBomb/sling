@@ -4,7 +4,7 @@
 {
 "spawnflags" "0"
 "classname" "worldspawn"
-"wad" "../sling/id1/textures/sling.wad"
+"wad" "../textures/sling.wad"
 "_mod" "sling"
 "_def" "builtin:Quake.fgd"
 "message" "Sling and Turn"

@@ -4,7 +4,7 @@
 {
 "spawnflags" "0"
 "classname" "worldspawn"
-"wad" "../sling/id1/textures/sling.wad"
+"wad" "../textures/sling.wad"
 "message" "Sling and Switch"
 // brush 0
 {
