@@ -824,7 +824,7 @@ void SV_WalkMove (edict_t *ent)
 	if ( !(clip & 2) )
 		return;		// move didn't block on a step
 
-	//if (!oldonground && ent->v.waterlevel == 0)
+	if (!oldonground && ent->v.waterlevel == 0)
 	//	return;		// don't stair up while jumping
 
 	if (ent->v.movetype != MOVETYPE_WALK)
