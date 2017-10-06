@@ -53,7 +53,7 @@ sling*.tga
 
 #QuakeC stuff
 *.lno
-*.log
+fteqcc.log
 
 # Kernel Module Compile Results
 *.mod*
