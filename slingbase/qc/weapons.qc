@@ -46,10 +46,8 @@ void() W_FireLightning =
 	{
 		sound (self, CHAN_WEAPON, "player/charge.wav", 1, ATTN_NORM);
 		self.t_width = 1;
+		self.charge = time;
 	}
-	
-	if (self.charge < 100)
-		self.charge = self.charge + 1;
 };
 
 
@@ -160,7 +158,11 @@ void() W_WeaponFrame =
 	{
 		makevectors(self.v_angle);
 		self.flags = self.flags - (self.flags & FL_ONGROUND);
-		self.velocity = v_forward * self.charge * 10;
+		
+		if ((time - self.charge) > 0.8)
+			self.charge = 0.8;
+		
+		self.velocity = v_forward * self.charge * 10 * 125;
 		self.charge = 0;
 		self.t_width = 0;
 		sound (self, CHAN_WEAPON, "player/charge.wav", 0, ATTN_NONE);
