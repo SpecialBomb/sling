@@ -162,7 +162,7 @@ void() W_WeaponFrame =
 		if ((time - self.charge) > 0.8)
 			self.charge = 0.8;
 		
-		self.velocity = v_forward * self.charge * 10 * 125;
+		self.velocity = v_forward * (self.charge * 1250);
 		self.charge = 0;
 		self.t_width = 0;
 		sound (self, CHAN_WEAPON, "player/charge.wav", 0, ATTN_NONE);
