@@ -159,10 +159,14 @@ void() W_WeaponFrame =
 		makevectors(self.v_angle);
 		self.flags = self.flags - (self.flags & FL_ONGROUND);
 		
-		if ((time - self.charge) > 0.8)
-			self.charge = 0.8;
+		local	float realcharge;
 		
-		self.velocity = v_forward * (self.charge * 1250);
+		realcharge = (time - self.charge);
+		
+		if (realcharge > 0.8)
+			realcharge = 0.8;
+		
+		self.velocity = v_forward * (realcharge * 1250);
 		self.charge = 0;
 		self.t_width = 0;
 		sound (self, CHAN_WEAPON, "player/charge.wav", 0, ATTN_NONE);
