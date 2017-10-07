@@ -569,7 +569,7 @@ static qboolean VID_SetMode (int width, int height, int bpp, qboolean fullscreen
 	SDL_GL_SetAttribute(SDL_GL_MULTISAMPLEBUFFERS, fsaa > 0 ? 1 : 0);
 	SDL_GL_SetAttribute(SDL_GL_MULTISAMPLESAMPLES, fsaa);
 
-	q_snprintf(caption, sizeof(caption), "Sling " SLING_VERSION);
+	q_snprintf(caption, sizeof(caption), "Sling");
 
 #if defined(USE_SDL2)
 	/* Create the window if needed, hidden */
